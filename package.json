@@ -1,0 +1,16 @@
+{
+  "name": "digdiff",
+  "version": "0.1.0",
+  "description": "Query many DNS resolvers at once, spot the ones that lie to you",
+  "type": "module",
+  "bin": {
+    "digdiff": "bin/digdiff.js"
+  },
+  "scripts": {
+    "start": "node bin/digdiff.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
